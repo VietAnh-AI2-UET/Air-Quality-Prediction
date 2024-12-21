@@ -2,7 +2,7 @@
 from optimize import optimize_model
 from policy import epsilon_greedy_policy as policy
 import torch
-
+""
 def save_model(i_episode, policy_net, target_net, optimizer, episode_rewards, episode_losses, path):
     torch.save({
         'episode': i_episode,
